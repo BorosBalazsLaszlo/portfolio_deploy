@@ -74,7 +74,7 @@ const Main = () => {
                             {!typingComplete && <span className="typing-cursor"></span>}
                         </h3>
                         <p className="lead delay-1">
-                            Üdvözlet! <strong>Boros Balázs</strong> vagyok,{' '}
+                            Üdvözlet! <strong>Boros Balázs László</strong> vagyok,{' '}
                             <strong>szoftverfejlesztő</strong>.<br />
                             <strong>Frontend fejlesztés</strong> és <strong>UI/UX tervezés</strong>{' '}
                             területén dolgozom, ahol a modern webtechnológiák kreatív alkalmazása és
@@ -120,8 +120,8 @@ const Main = () => {
                             }}
                         />
                         <div className="text-center" style={{ width: '100%' }}>
-                            <span className="badge bg-success p-3 current-work-badge">
-                                Jelenleg a GBD Logistics projekten dolgozom
+                            <span className="badge bg-primary p-3 current-work-badge">
+                                Jelenleg saját ötleteket valósítok meg
                             </span>
                         </div>
                     </div>
@@ -137,7 +137,7 @@ const Main = () => {
             >
                 <div className="container text-center">
                     <h2 className="display-3 mb-4">Ismereteim / TechStack</h2>
-                    <div className="row mt-4">
+                    <div className="row mt-4 justify-content-center">
                         {skills.map((skill, index) => (
                             <div
                                 key={index}
